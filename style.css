@@ -1,0 +1,53 @@
+/*Styling for general page*/
+
+body{
+	margin: 0;
+	background-color: #222222;
+	color: burlywood;
+	font-family: Arial, sans-serif;
+}
+/*Styling for header*/
+
+header{
+	background-color: midnightblue;
+	padding: 20px 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1{
+	margin: 0;
+	font-size:28px;
+}
+
+/*Navigation links styling*/
+
+nav{
+	display: flex;
+	gap: 25px;
+}
+
+nav a{
+	color: burlywood;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+/*Main Content*/
+
+main{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.about{
+	background-color: #303030;
+	padding: 30px;
+	border: 2px solid burlywood;
+	border-radius: 8px;
+}
