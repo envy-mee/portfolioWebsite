@@ -1,57 +1,366 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Ezequiel | Portfolio</title>
+    <title>Ezequiel Reyes | Portfolio</title>
 
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
 
-<header>
+    <!-- SKIP NAVIGATION -->
+    <a class="skip-link" href="#main">
+        Skip to content
+    </a>
 
-	<h1>Ezequiel Reyes</h1>
+    <!-- HEADER -->
+    <header class="site-header">
 
-	<nav>
-		<a href="index.html">Home</a>
-		<a href="work.html">Home</a>
-		<a href="contact.html">Home</a>
-	</nav>
-</header>
-<main>
-	<section class="hero">
-		<h2>
-		Welcome to My Portfolio
-		</h2>
+        <div class="header-inner wrapper">
 
-		<h3>
-		Computer Programming & Information Systems
-		</h3>
+            <!-- WEBSITE BRAND -->
+            <a class="brand" href="index.html">
+                EZEQUIEL <span>REYES</span>
+            </a>
 
-	<section class="about">
+            <!-- MOBILE MENU BUTTON -->
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+                aria-controls="primary-nav">
+            </button>
 
-		<h2>About Me</h2>
+            <!-- NAVIGATION -->
+            <nav class="site-nav" id="primary-nav" aria-label="Main navigation">
 
-		<p>
-		I am a student at Farmingdale State University
-		pursuing a Bachelor's degree in Computer
-		Programming and Information Systems.
-		</p>
+                <a class="active" aria-current="page" href="index.html">
+                    Home
+                </a>
 
-	</section>
-	<section class="about">
-		<h2>Professional Experience</h2>
-		<h3>Liftoff Coordinator</h3>
-		<p>
-		I train new hires on workplace procedures, operations, and safety awareness.
-		</p>
-	</section>
+                <a href="work.html">
+                    Projects
+                </a>
 
-</main>
+                <a href="contact.html">
+                    Contact
+                </a>
 
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main id="main">
+
+        <!-- HERO SECTION -->
+        <section class="hero wrapper" aria-labelledby="hero-title">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    COMPUTER PROGRAMMING & INFORMATION SYSTEMS
+                </p>
+
+                <h1 id="hero-title">
+                    Developing solutions.<br>
+                    <span>Building experience.</span>
+                </h1>
+
+                <p class="lead">
+                    I'm Ezequiel, a student at Farmingdale State College
+                    pursuing a bachelor's degree in Computer Programming
+                    and Information Systems. I'm building my skills in
+                    software development, databases, and leadership.
+                </p>
+
+                <!-- HERO BUTTONS -->
+                <div class="actions">
+
+                    <a class="button button-primary" href="work.html">
+                        Explore my work
+                        <span aria-hidden="true">→</span>
+                    </a>
+
+                    <a class="button button-outline" href="contact.html">
+                        Get in touch
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROFESSIONAL FOCUS PANEL -->
+            <aside class="hero-panel" aria-label="Professional focus">
+
+                <div class="panel-top">
+                    <span class="status-dot"></span>
+                    CURRENT FOCUS
+                </div>
+
+                <!-- FOCUS ITEM 1 -->
+                <div class="focus-item">
+
+                    <span class="focus-number">01</span>
+
+                    <div>
+                        <strong>Software Development</strong>
+                        <small>Java · HTML · CSS · JavaScript</small>
+                    </div>
+
+                </div>
+
+                <!-- FOCUS ITEM 2 -->
+                <div class="focus-item">
+
+                    <span class="focus-number">02</span>
+
+                    <div>
+                        <strong>Database Management</strong>
+                        <small>MySQL · Data organization</small>
+                    </div>
+
+                </div>
+
+                <!-- FOCUS ITEM 3 -->
+                <div class="focus-item">
+
+                    <span class="focus-number">03</span>
+
+                    <div>
+                        <strong>Leadership</strong>
+                        <small>Training · Operations · Safety</small>
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+
+        <!-- ABOUT ME SECTION -->
+        <section class="section section-alt" id="about">
+
+            <div class="wrapper two-column">
+
+                <div>
+
+                    <p class="eyebrow">
+                        GET TO KNOW ME
+                    </p>
+
+                    <h2>About Me</h2>
+
+                </div>
+
+                <div>
+
+                    <p>
+                        I'm pursuing a career in technology, with interests
+                        in programming and database management. My goal is
+                        to keep improving my technical abilities and build
+                        the experience needed to contribute to meaningful
+                        projects.
+                    </p>
+
+                    <p>
+                        Alongside my studies, I work as a Liftoff Coordinator,
+                        training new hires on procedures, operations, and
+                        safety awareness. This role has strengthened my
+                        communication, organization, and leadership skills.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECHNICAL SKILLS SECTION -->
+        <section class="section wrapper" id="skills">
+
+            <p class="eyebrow">
+                WHAT I WORK WITH
+            </p>
+
+            <h2>Technical Skills & Tools</h2>
+
+            <div class="card-grid">
+
+                <!-- PROGRAMMING CARD -->
+                <article class="info-card">
+
+                    <div class="card-icon" aria-hidden="true">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>Programming</h3>
+
+                    <p>
+                        Java, HTML, and developing web fundamentals
+                        with CSS and JavaScript.
+                    </p>
+
+                </article>
+
+
+                <!-- DATABASE CARD -->
+                <article class="info-card">
+
+                    <div class="card-icon" aria-hidden="true">
+                        ▤
+                    </div>
+
+                    <h3>Databases</h3>
+
+                    <p>
+                        MySQL and foundational database
+                        management concepts.
+                    </p>
+
+                </article>
+
+
+                <!-- DEVELOPMENT TOOLS CARD -->
+                <article class="info-card">
+
+                    <div class="card-icon" aria-hidden="true">
+                        ⌘
+                    </div>
+
+                    <h3>Development Tools</h3>
+
+                    <p>
+                        IntelliJ IDEA, NetBeans, and Unix environments.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS AND EXPERIENCE SECTION -->
+        <section class="section section-alt">
+
+            <div class="wrapper">
+
+                <!-- SECTION HEADING -->
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            LEARNING BY DOING
+                        </p>
+
+                        <h2>Projects & Experience</h2>
+
+                    </div>
+
+                    <a class="text-link" href="work.html">
+                        View projects →
+                    </a>
+
+                </div>
+
+
+                <!-- FEATURE CARDS -->
+                <div class="feature-grid">
+
+                    <!-- EXPERIENCE CARD -->
+                    <article class="feature-card">
+
+                        <span class="tag">
+                            EXPERIENCE
+                        </span>
+
+                        <h3>Liftoff Coordinator</h3>
+
+                        <p>
+                            Supporting workplace operations by training
+                            new employees in procedures and safety awareness.
+                        </p>
+
+                    </article>
+
+
+                    <!-- UPCOMING PROJECTS CARD -->
+                    <article class="feature-card">
+
+                        <span class="tag">
+                            PROJECT SPACE
+                        </span>
+
+                        <h3>Upcoming Work</h3>
+
+                        <p>
+                            This section is reserved for coursework
+                            and programming projects as I develop them.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT CALL TO ACTION -->
+        <section class="section wrapper cta">
+
+            <p class="eyebrow">
+                LET'S CONNECT
+            </p>
+
+            <h2>Interested in working together?</h2>
+
+            <p>
+                I'm open to connecting with employers and
+                professionals in technology.
+            </p>
+
+            <a class="button button-primary" href="contact.html">
+                Contact me →
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="wrapper footer-inner">
+
+            <span>
+                © <span class="year">2026</span> Ezequiel Reyes
+            </span>
+
+            <span>
+                Built with HTML, CSS & JavaScript
+            </span>
+
+        </div>
+
+    </footer>
 
 </body>
 
