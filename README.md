@@ -68,8 +68,13 @@ there will be a section for you to enter your name, email, subject, and then you
 There will be some hover interactions on links or buttons
 5. How does interactivity improve the user experience?
 visitors can navigate and contact me easily
-
+<h1>Wireframe Design</h1>
 <img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/43b3eee6-0bc4-4641-8721-03368e00111d" />
+<h1>External resources</h1>
+https://www.w3schools.com/html/
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/js/default.asp
+https://www.awwwards.com/websites/portfolio/
 
 
 
